@@ -37,9 +37,13 @@ Before running the deployment script, ensure the following installer files are p
 The system utilizes an automated Windows Batch script to verify prerequisites, install missing dependencies, and build the isolated virtual environments.
 
 **Step 1:** Double-click `DEPLOY_VAULT.bat`.
+
 **Step 2:** The script will automatically check for the required Python versions. If a version is missing, it will launch the installer. *(Note: Ensure you check "Add Python to PATH" when installing Python 3.13).*
+
 **Step 3:** The script will verify hardware drivers. If the required `.dll` files are missing, it will launch the necessary hardware setups.
+
 **Step 4:** Allow the script to automatically build `venv_main`, `venv_voice`, `venv_fingerprint`, and `venv_iris`, and download all necessary PIP libraries.
+
 **Step 5:** Upon completion, the script will automatically launch the Electric Vault dashboard.
 
 *(For subsequent launches, you only need to double-click the `.bat` file, and it will skip directly to launching the app in under 2 seconds).*
