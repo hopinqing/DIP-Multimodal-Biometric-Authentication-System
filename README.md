@@ -29,7 +29,7 @@ Before running the deployment script, ensure the following installer files are p
 **Hardware Drivers & SDKs:**
 * `Futronic_Driver.exe` (Version 10.0.0.1 for Windows)
 * `IriShield_USB_Driver.exe`
-* `IDDK_2000_x64_Setup.exe` (IriTech SDK C/C++)
+* `IDDK_2000_x64_Setup.msi` (IriTech SDK C/C++)
 
 ---
 
