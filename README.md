@@ -44,7 +44,7 @@ The system utilizes an automated Windows Batch script to verify prerequisites, i
 
 **Step 4:** Allow the script to automatically build `venv_main`, `venv_voice`, `venv_fingerprint`, and `venv_iris`, and download all necessary PIP libraries.
 
-**Step 5:** Upon completion, the script will automatically launch the Electric Vault dashboard.
+**Step 5:** Upon completion, the script will automatically launch the main application.
 
 *(For subsequent launches, you only need to double-click the `.bat` file, and it will skip directly to launching the app in under 2 seconds).*
 
